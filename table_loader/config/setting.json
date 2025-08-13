@@ -1,0 +1,14 @@
+{"config":
+{
+    "bronze_layer_path": "/path/to/bronze/layer",
+    "silver_layer_path": "/path/to/silver/layer",
+    "gold_layer_path": "/path/to/gold/layer",
+    "data_cleaning_script": "data_cleaning.py",
+    "schema_validation_script": "schema_validation.py",
+    "spark_session_config": {
+        "appName": "DataCleaningApp",
+        "master": "local[*]"
+    },
+    "date_columns_suffix": "_dt"
+}
+}
