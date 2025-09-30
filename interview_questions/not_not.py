@@ -12,5 +12,3 @@ unit = "kg"
 print(f"The weight is {weight} {unit}.")
 
 #####code version 1##########
-
-#####code version 2##########
